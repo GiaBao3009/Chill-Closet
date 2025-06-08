@@ -1,0 +1,29 @@
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\appsettings.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.staticwebassets.runtime.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.staticwebassets.endpoints.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.exe
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.deps.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.runtimeconfig.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.dll
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\bin\Debug\net8.0\Chill Closet.pdb
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.AssemblyInfoInputs.cache
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.AssemblyInfo.cs
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.csproj.CoreCompileInputs.cache
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.RazorAssemblyInfo.cache
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.RazorAssemblyInfo.cs
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\scopedcss\bundle\Chill Closet.styles.css
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\scopedcss\projectbundle\Chill Closet.bundle.scp.css
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.dll
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\refint\Chill Closet.dll
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.pdb
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\Chill Closet.genruntimeconfig.cache
+C:\Users\baold\source\repos\Chill Closet\Chill Closet\obj\Debug\net8.0\ref\Chill Closet.dll
