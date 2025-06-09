@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chill Closet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54b36ef9ec365375e8df31aaa7be92502512ebb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chill Closet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chill Closet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

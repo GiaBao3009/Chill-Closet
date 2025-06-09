@@ -1,0 +1,45 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_AuthLayout"; // QUAN TRỌNG: Sử dụng layout mới mà chúng ta đã tạo
+}
+
+@{
+    var imageUrl = Url.Content("~/img/instagram/instagram-3.jpg");
+}
+
+<div class="auth-container">
+    <div class="auth-box">
+        <div class="col-lg-6 auth-form-container">
+            <h2>Create Account</h2>
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                <div class="form-group">
+                    <input asp-for="Input.Email" class="form-control" placeholder="Email" autocomplete="username" aria-required="true" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Input.Password" class="form-control" placeholder="Password" autocomplete="new-password" aria-required="true" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="Confirm Password" autocomplete="new-password" aria-required="true" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+                <button id="registerSubmit" type="submit" class="site-btn">Register</button>
+                <div class="auth-links">
+                    <p class="mb-0">Already have an account? <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Log in</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-flex auth-image-container" style="background-image: url('@imageUrl');">
+            <h3>Fresh flowers <br /> for any special occasion</h3>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

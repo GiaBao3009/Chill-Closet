@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="~/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="~/css/style.css" type="text/css">
+    <link rel="stylesheet" href="~/css/admin-dashboard.css" type="text/css">
 </head>
 
 <body>
@@ -31,17 +32,10 @@
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__option">
             <div class="offcanvas__links">
-                <a href="#">Sign in</a>
+                <partial name="_LoginPartial" />
                 <a href="#">FAQs</a>
             </div>
-            <div class="offcanvas__top__hover">
-                <span>Usd <i class="arrow_carrot-down"></i></span>
-                <ul>
-                    <li>USD</li>
-                    <li>EUR</li>
-                    <li>USD</li>
-                </ul>
-            </div>
+           
         </div>
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="~/img/icon/search.png" alt=""></a>
@@ -66,17 +60,9 @@
                     <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
                             <div class="header__top__links">
-                                <a href="#">Sign in</a>
-                                <a href="#">FAQs</a>
+                                <partial name="_LoginPartial" />
                             </div>
-                            <div class="header__top__hover">
-                                <span>Usd <i class="arrow_carrot-down"></i></span>
-                                <ul>
-                                    <li>USD</li>
-                                    <li>EUR</li>
-                                    <li>USD</li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

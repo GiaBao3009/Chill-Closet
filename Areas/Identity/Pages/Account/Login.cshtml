@@ -1,0 +1,52 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "_AuthLayout"; // Sử dụng layout mới
+}
+
+@{
+    var imageUrl = Url.Content("~/img/instagram/instagram-3.jpg");
+}
+
+<div class="auth-container">
+    <div class="auth-box">
+        <div class="col-lg-6 auth-form-container">
+            <h2>Welcome back!</h2>
+            <form id="account" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <input asp-for="Input.Email" class="form-control" placeholder="Email" autocomplete="username" aria-required="true" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Input.Password" class="form-control" placeholder="Password" autocomplete="current-password" aria-required="true" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <a id="forgot-password" asp-page="./ForgotPassword" class="float-end" style="font-size: 14px; color: #666;">Forgot your password?</a>
+
+                <div class="form-check mb-3">
+                    <label asp-for="Input.RememberMe" class="form-check-label">
+                        <input class="form-check-input" asp-for="Input.RememberMe" />
+                        @Html.DisplayNameFor(m => m.Input.RememberMe)
+                    </label>
+                </div>
+
+                <button id="login-submit" type="submit" class="site-btn">Login</button>
+
+                <div class="auth-links">
+                    <p class="mb-0">Don't have an account? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Create account</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6 d-none d-lg-flex auth-image-container" style="background-image: url('@imageUrl');">
+            <h3>Fresh flowers <br /> for any special occasion</h3>
+        </div>
+    </div>  
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,11 +1,12 @@
+wwwroot\css\admin-dashboard.css
 wwwroot\css\bootstrap.min.css
+wwwroot\css\custom-auth.css
 wwwroot\css\elegant-icons.css
 wwwroot\css\font-awesome.min.css
 wwwroot\css\magnific-popup.css
 wwwroot\css\nice-select.css
 wwwroot\css\owl.carousel.min.css
 wwwroot\css\slicknav.min.css
-wwwroot\css\style.css
 wwwroot\css\style.css.map
 wwwroot\favicon.ico
 wwwroot\fonts\ElegantIcons.eot
@@ -159,3 +160,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\style.css

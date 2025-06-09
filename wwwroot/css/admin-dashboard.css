@@ -1,0 +1,95 @@
+﻿/*---------------------
+  Admin Dashboard
+-----------------------*/
+
+.admin-sidebar {
+    background: #f3f2ee;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+    .admin-sidebar h4 {
+        color: #111;
+        font-weight: 700;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+.admin-sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .admin-sidebar-nav li a {
+        display: block;
+        color: #444444;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 12px 15px;
+        border-radius: 5px;
+        transition: all 0.3s;
+    }
+
+        .admin-sidebar-nav li a i {
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .admin-sidebar-nav li a:hover {
+            background: #fff;
+            color: #111;
+        }
+
+    .admin-sidebar-nav li.active a {
+        background: #111111;
+        color: #ffffff;
+    }
+
+.admin-content-title {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+    .admin-content-title h2 {
+        color: #111;
+        font-weight: 700;
+    }
+
+    .admin-content-title p {
+        color: #666;
+        margin-bottom: 0;
+    }
+
+.admin-stat-card {
+    background: #f3f2ee;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+    .admin-stat-card h3 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #111;
+    }
+
+    .admin-stat-card p {
+        font-size: 16px;
+        color: #444;
+        margin-bottom: 0;
+    }
+
+    .admin-stat-card span {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 70px;
+        color: #e5e5e5;
+    }

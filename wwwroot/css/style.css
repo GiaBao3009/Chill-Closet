@@ -347,7 +347,6 @@ ol {
 
 .header__top__links {
 	display: inline-block;
-	margin-right: 25px;
 }
 
 .header__top__links a {
@@ -3865,4 +3864,149 @@ ol {
 	.categories__text:before {
 		height: 250px;
 	}
+}
+/* Custom CSS for Identity Logout Link */
+/* ===================================
+   CUSTOM CSS FOR IDENTITY
+======================================*/
+
+/* ===================================
+   CUSTOM CSS FOR IDENTITY & HEADER FIX
+======================================*/
+
+/* Căn chỉnh khối bên phải của header top bằng Flexbox */
+.header__top__right {
+    display: flex;
+    justify-content: flex-end; /* Đẩy các item về cuối (bên phải) */
+    align-items: center;       /* Căn giữa các item theo chiều dọc */
+}
+
+/* Style cho form và button logout trên desktop */
+.header__top__links form {
+    display: inline-block; /* Để form nằm cùng hàng với link */
+    margin-right: 11px;
+}
+
+.header__top__links form button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+}
+
+/* Style cho form và button logout trên mobile */
+.offcanvas__links form {
+    display: block; 
+}
+
+.offcanvas__links form button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    outline: none;
+    color: #111111;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 600;
+}
+
+/*---------------------
+  Login & Register Page (Đã có từ trước)
+-----------------------*/
+/* ... (giữ nguyên các style cho trang login đã thêm ở bước trước) ... */
+
+/*---------------------
+  Login & Register Page
+-----------------------*/
+.login {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.login__form {
+    position: relative;
+    padding: 50px;
+    background: #f3f2ee;
+}
+
+.login__form h3 {
+	color: #111111;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.login__form form .input__item {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.login__form form .input__item input {
+	height: 50px;
+	width: 100%;
+	font-size: 15px;
+	color: #b7b7b7;
+	background: #ffffff;
+	border: 1px solid #e1e1e1;
+	padding-left: 50px;
+}
+
+.login__form form .input__item input::placeholder {
+	color: #b7b7b7;
+}
+
+.login__form form .input__item span {
+	font-size: 18px;
+	color: #b7b7b7;
+	position: absolute;
+	left: 20px;
+	top: 16px;
+}
+
+.login__form form .login__remember {
+	margin-bottom: 20px;
+}
+
+.login__form form .login__remember label {
+	font-size: 15px;
+	color: #444444;
+}
+
+.login__form form .login__remember .form-check-input {
+	position: relative;
+	top: -2px;
+	margin-right: 5px;
+}
+
+.login__form form .site-btn {
+	width: 100%;
+	letter-spacing: 2px;
+}
+
+.login__form .login__links {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.login__form .login__links a {
+	color: #444444;
+	font-size: 15px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.login__form .login__links a:last-child {
+	margin-bottom: 0;
 }
