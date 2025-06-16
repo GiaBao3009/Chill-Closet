@@ -7,6 +7,7 @@ wwwroot\css\magnific-popup.css
 wwwroot\css\nice-select.css
 wwwroot\css\owl.carousel.min.css
 wwwroot\css\slicknav.min.css
+wwwroot\css\style.css
 wwwroot\css\style.css.map
 wwwroot\favicon.ico
 wwwroot\fonts\ElegantIcons.eot
@@ -66,6 +67,7 @@ wwwroot\img\instagram\instagram-6.jpg
 wwwroot\img\logo.png
 wwwroot\img\payment.png
 wwwroot\img\product-sale.png
+wwwroot\img\product\OIP.jpg
 wwwroot\img\product\product-1.jpg
 wwwroot\img\product\product-10.jpg
 wwwroot\img\product\product-11.jpg
@@ -80,6 +82,9 @@ wwwroot\img\product\product-6.jpg
 wwwroot\img\product\product-7.jpg
 wwwroot\img\product\product-8.jpg
 wwwroot\img\product\product-9.jpg
+wwwroot\img\product\Samsung s25.jpg
+wwwroot\img\product\webp-1280.png
+wwwroot\img\product\z6435363920172_0cc9a78c6b9e50680ab3a34423e7a204.jpg
 wwwroot\img\shop-details\details-payment.png
 wwwroot\img\shop-details\product-big-2.png
 wwwroot\img\shop-details\product-big-3.png
@@ -160,4 +165,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\style.css

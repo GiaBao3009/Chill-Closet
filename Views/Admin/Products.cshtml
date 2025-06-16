@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Chill_Closet.Models.Product>
+
+@{
+    ViewData["Title"] = "Product Management";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="admin-sidebar">
+                    <h4>Admin Menu</h4>
+                    <ul class="admin-sidebar-nav">
+                        <li><a asp-controller="Admin" asp-action="Index"><i class="fa fa-tachometer"></i> Dashboard</a></li>
+                        <li class="active"><a asp-controller="Admin" asp-action="Products"><i class="fa fa-tags"></i> Quản lý Sản phẩm</a></li>
+                        <li><a href="#"><i class="fa fa-th-large"></i> Quản lý Danh mục</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Quản lý Đơn hàng</a></li>
+                        <li><a href="#"><i class="fa fa-users"></i> Quản lý Người dùng</a></li>
+                        <li><a href="#"><i class="fa fa-newspaper-o"></i> Quản lý Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title">
+                        <h2>Quản lý Sản phẩm</h2>
+                        <a asp-action="Create" class="btn btn-dark">Thêm Sản phẩm mới</a>
+                    </div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Tên Sản phẩm</th>
+                                <th>Danh mục</th>
+                                <th>Giá</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="@Url.Content(item.MainImageUrl)" alt="@item.Name" style="width: 80px; height: 80px; object-fit: cover;">
+                                    </td>
+                                    <td>@item.Name</td>
+                                    <td>@item.Category.Name</td>
+                                    <td>@item.Price.ToString("C")</td>
+                                    <td class="text-center">
+                                        <div class="btn-group" role="group">
+                                            <a asp-controller="Admin" asp-action="Details" asp-route-id="@item.Id" target="_blank" class="btn btn-sm btn-outline-info">Chi tiết</a>
+                                            <a asp-controller="Admin" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-success">Sửa</a>
+                                            <a asp-controller="Admin" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Xóa</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

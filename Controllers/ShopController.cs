@@ -1,20 +1,33 @@
+using Chill_Closet.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Chill_Closet.Controllers
 {
     public class ShopController : Controller
     {
-        public IActionResult Index()
+        private readonly IProductRepository _productRepository;
+
+        public ShopController(IProductRepository productRepository)
         {
-            return View();
+            _productRepository = productRepository;
         }
 
-        // GET: /Shop/Details/5 (ví dụ với id=5)
-        public IActionResult Details(int id)
+        // GET: /Shop
+        public async Task<IActionResult> Index()
         {
-            // Sau này, bạn sẽ dùng 'id' để truy vấn database và lấy thông tin sản phẩm.
-            // Tạm thời chúng ta chỉ hiển thị view.
-            return View();
+            var products = await _productRepository.GetAllAsync();
+            return View(products);
+        }
+
+        // Action để hiển thị chi tiết sản phẩm
+        public async Task<IActionResult> Details(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
     }
 }

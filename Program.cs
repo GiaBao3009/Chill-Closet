@@ -1,9 +1,10 @@
 using Chill_Closet.Data;
 using Chill_Closet.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+using Chill_Closet.Repository;
 using Chill_Closet.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,19 @@ builder.Services.AddDbContext<ChillClosetContext>(options => options.UseSqlServe
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<ChillClosetContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.AddAuthorization(options =>
+{
+    // Policy này yêu cầu người dùng phải có vai trò "Admin"
+    options.AddPolicy("RequireAdminRole",
+        policy => policy.RequireRole("Admin"));
+});
+
+// Đăng ký các dịch vụ Repository
+builder.Services.AddScoped<IProductRepository, EFProductRepository>();
+builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
+
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IEmailSender, EmailSender>();

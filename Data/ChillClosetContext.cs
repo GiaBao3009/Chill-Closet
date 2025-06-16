@@ -17,6 +17,8 @@ namespace Chill_Closet.Data
         // Thêm các DbSet cho các model mới
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Category> Categories { get; set; }
         // Thêm các DbSet khác ở đây (Reviews, Categories,...)
+        public DbSet<ProductImage> ProductImages { get; set; }
     }
 }

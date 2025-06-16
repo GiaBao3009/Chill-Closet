@@ -1,0 +1,54 @@
+﻿@model Chill_Closet.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="admin-content">
+            <div class="admin-content-title">
+                <h2>Chi tiết: @Model.Name</h2>
+            </div>
+            <div class="admin-form-container">
+                <dl class="row">
+                    <dt class="col-sm-3">Tên sản phẩm</dt>
+                    <dd class="col-sm-9">@Model.Name</dd>
+
+                    <dt class="col-sm-3">Giá</dt>
+                    <dd class="col-sm-9">@Model.Price.ToString("C")</dd>
+
+                    <dt class="col-sm-3">Danh mục</dt>
+                    <dd class="col-sm-9">@Model.Category.Name</dd>
+
+                    <dt class="col-sm-3">Mô tả</dt>
+                    <dd class="col-sm-9">@Model.Description</dd>
+
+                    <dt class="col-sm-3">Ảnh đại diện</dt>
+                    <dd class="col-sm-9">
+                        <img src="@Url.Content(Model.MainImageUrl)" width="150" alt="Main Image" />
+                    </dd>
+
+                    <dt class="col-sm-3">Các ảnh phụ</dt>
+                    <dd class="col-sm-9">
+                        @if (Model.Images != null && Model.Images.Any())
+                        {
+                            foreach (var image in Model.Images)
+                            {
+                                <img src="@Url.Content(image.Url)" width="100" class="img-thumbnail mr-2 mb-2" alt="Product Image" />
+                            }
+                        }
+                        else
+                        {
+                            <span>Không có ảnh phụ.</span>
+                        }
+                    </dd>
+                </dl>
+            </div>
+            <div class="form-buttons mt-4">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Sửa</a>
+                <a asp-action="Products" class="btn btn-outline-secondary ml-2">Quay lại danh sách</a>
+            </div>
+        </div>
+    </div>
+</div>
