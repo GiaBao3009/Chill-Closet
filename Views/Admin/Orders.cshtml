@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Order>
+
+@{
+    ViewData["Title"] = "Quản lý Đơn hàng";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                @await Html.PartialAsync("_AdminSidebarPartial")
+            </div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title">
+                        <h2>Quản lý Đơn hàng</h2>
+                    </div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Mã ĐH</th>
+                                <th>Tên Khách hàng</th>
+                                <th>Ngày đặt</th>
+                                <th>Tổng tiền</th>
+                                <th>Trạng thái</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>#@item.Id</td>
+                                    <td>@item.FullName</td>
+                                    <td>@item.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                    <td>@item.TotalAmount.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</td>
+                                    <td>@item.Status</td>
+                                    <td class="text-center">
+                                        <a asp-action="OrderDetails" asp-route-id="@item.Id" class="btn btn-sm btn-info">Xem chi tiết</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

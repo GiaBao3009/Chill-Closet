@@ -1,4 +1,4 @@
-/*  ---------------------------------------------------
+﻿/*  ---------------------------------------------------
     Template Name: Male Fashion
     Description: Male Fashion - ecommerce teplate
     Author: Colorib
@@ -212,5 +212,51 @@
             }
         });
     });
+    // === CUSTOM SCRIPT FOR ADD TO CART (AJAX) ===
+    $(document).ready(function () {
 
+        $('.product__item__text').on('click', '.add-cart', function (e) {
+            e.preventDefault(); // Ngăn thẻ <a> chuyển trang
+
+            var productId = $(this).data('product-id');
+
+            $.ajax({
+                url: '/ShoppingCart/AddToCart', // Đường dẫn đến action của bạn
+                type: 'POST',
+                data: {
+                    productId: productId,
+                    quantity: 1
+                },
+                // Cần thêm token chống giả mạo cho POST request
+                headers: {
+                    "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val()
+                },
+                success: function (response) {
+                    if (response.success) {
+                        var cartCount = response.cartCount;
+                        var grandTotal = response.grandTotal;
+
+                        // Định dạng tiền tệ VND
+                        var formattedTotal = grandTotal.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+
+                        // Cập nhật số lượng item
+                        $('.header__nav__option a[href*="/ShoppingCart"] span').text(cartCount);
+                        $('.offcanvas__nav__option a[href*="/ShoppingCart"] span').text(cartCount);
+
+                        // Cập nhật tổng tiền
+                        $('.header__nav__option .price').text(formattedTotal);
+                        $('.offcanvas__nav__option .price').text(formattedTotal);
+
+                        alert(response.message);
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Đã có lỗi xảy ra. Vui lòng thử lại.');
+                }
+            });
+        });
+
+    });
 })(jQuery);

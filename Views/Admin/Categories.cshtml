@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Chill_Closet.Models.Category>
+
+@{
+    ViewData["Title"] = "Quản lý Danh mục";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                @await Html.PartialAsync("_AdminSidebarPartial")
+            </div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title">
+                        <h2>Quản lý Danh mục</h2>
+                        <a asp-action="CreateCategory" class="btn btn-dark">Thêm Danh mục mới</a>
+                    </div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Tên Danh mục</th>
+                                <th style="width: 150px;">Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td class="text-center">
+                                        <div class="btn-group" role="group">
+                                            <a asp-action="EditCategory" asp-route-id="@item.Id" class="btn btn-sm btn-outline-success">Sửa</a>
+                                            <a asp-action="DeleteCategory" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Xóa</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    @Html.AntiForgeryToken()
     <div id="preloder">
         <div class="loader"></div>
     </div>
@@ -35,13 +36,13 @@
                 <partial name="_LoginPartial" />
                 <a href="#">FAQs</a>
             </div>
-           
+
         </div>
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="~/img/icon/search.png" alt=""></a>
             <a href="#"><img src="~/img/icon/heart.png" alt=""></a>
             <a href="#"><img src="~/img/icon/cart.png" alt=""> <span>0</span></a>
-            <div class="price">$0.00</div>
+            
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
@@ -62,7 +63,7 @@
                             <div class="header__top__links">
                                 <partial name="_LoginPartial" />
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -86,11 +87,15 @@
                                     <li><a asp-controller="Home" asp-action="About">About Us</a></li>
                                     <li><a asp-controller="ShoppingCart" asp-action="Index">Shopping Cart</a></li>
                                     <li><a asp-controller="Checkout" asp-action="Index">Check Out</a></li>
-                                    <li><a asp-controller="Blog" asp-action="Details" asp-route-id="1">Blog Details</a></li>
+                                    <li><a asp-controller="Blog" asp-action="Details" asp-route-id="1">Blog Details</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Order" asp-action="Index">Đơn hàng của tôi</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li><a asp-controller="Blog" asp-action="Index">Blog</a></li>
-                            <li><a asp-controller="Home" asp-action="Contact">Contacts</a></li>  
+                            <li><a asp-controller="Home" asp-action="Contact">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -100,7 +105,7 @@
                         <a href="#"><img src="~/img/icon/heart.png" alt=""></a>
                         <a asp-controller="ShoppingCart" asp-action="Index"><img src="~/img/icon/cart.png" alt="">
                             <span>0</span></a>
-                        <div class="price">$0.00</div>
+                       
                     </div>
                 </div>
             </div>

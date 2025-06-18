@@ -1,6 +1,8 @@
-﻿using Chill_Closet.Models;
+﻿using Chill_Closet.Enums;
+using Chill_Closet.Models;
 using Chill_Closet.Repository;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -12,12 +14,16 @@ namespace Chill_Closet.Controllers
     {
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
+        private readonly IOrderRepository _orderRepository;
+        private readonly IVoucherRepository _voucherRepository;
 
         // Constructor đúng, inject cả hai repository
-        public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository)
+        public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository,IOrderRepository orderRepository, IVoucherRepository voucherRepository)
         {
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
+            _orderRepository = orderRepository;
+            _voucherRepository = voucherRepository;
         }
 
         public IActionResult Index()
@@ -206,6 +212,181 @@ namespace Chill_Closet.Controllers
             // Nếu model không hợp lệ, trả lại view
             ViewBag.Categories = new SelectList(await _categoryRepository.GetAllAsync(), "Id", "Name", product.CategoryId);
             return View(product);
+        }
+        // ===============================================
+        // CÁC ACTION CHO CHỨC NĂNG QUẢN LÝ DANH MỤC
+        // ===============================================
+
+        // GET: Hiển thị danh sách danh mục
+        public async Task<IActionResult> Categories()
+        {
+            var categories = await _categoryRepository.GetAllAsync();
+            return View(categories);
+        }
+
+        // GET: Hiển thị form thêm danh mục mới
+        public IActionResult CreateCategory()
+        {
+            return View();
+        }
+
+        // POST: Xử lý dữ liệu từ form thêm danh mục mới
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateCategory(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                // Thêm [Required] vào thuộc tính Name trong Category.cs để validation hoạt động
+                await _categoryRepository.AddAsync(category);
+                return RedirectToAction(nameof(Categories));
+            }
+            return View(category);
+        }
+
+        // GET: Hiển thị form sửa danh mục
+        public async Task<IActionResult> EditCategory(int id)
+        {
+            var category = await _categoryRepository.GetByIdAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
+
+        // POST: Xử lý sửa danh mục
+        [HttpPost]
+        public async Task<IActionResult> EditCategory(int id, Category category)
+        {
+            if (id != category.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                await _categoryRepository.UpdateAsync(category);
+                return RedirectToAction(nameof(Categories));
+            }
+            return View(category);
+        }
+
+        // GET: Hiển thị trang xác nhận xóa danh mục
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            var category = await _categoryRepository.GetByIdAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
+
+        // POST: Xử lý xóa danh mục
+        [HttpPost, ActionName("DeleteCategory")]
+        public async Task<IActionResult> DeleteCategoryConfirmed(int id)
+        {
+            await _categoryRepository.DeleteAsync(id);
+            return RedirectToAction(nameof(Categories));
+        }
+        // GET: Admin/Orders
+        public async Task<IActionResult> Orders()
+        {
+            var orders = await _orderRepository.GetAllOrdersAsync();
+            return View(orders);
+        }
+        // GET: Admin/OrderDetails/5
+        public async Task<IActionResult> OrderDetails(int id)
+        {
+            var order = await _orderRepository.GetOrderByIdAsync(id);
+            if (order == null)
+            {
+                return NotFound();
+            }
+            return View(order);
+        }
+
+        // POST: Admin/UpdateOrderStatus
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateOrderStatus(int orderId, OrderStatus newStatus)
+        {
+            var order = await _orderRepository.GetOrderByIdAsync(orderId);
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            // Áp dụng logic: Nếu trạng thái hiện tại là Pending, có thể chuyển sang Confirmed hoặc Cancelled
+            if (order.Status == OrderStatus.Pending)
+            {
+                order.Status = newStatus;
+                if (newStatus == OrderStatus.Confirmed)
+                {
+                    order.EstimatedDeliveryDate = DateTime.Now.AddDays(7);
+                }
+            }
+            // Thêm các logic chuyển trạng thái khác sau này (ví dụ: từ Confirmed -> Shipping)
+
+            await _orderRepository.UpdateOrderAsync(order);
+
+            TempData["SuccessMessage"] = "Cập nhật trạng thái đơn hàng thành công!";
+            return RedirectToAction("OrderDetails", new { id = orderId });
+        }
+        public async Task<IActionResult> Vouchers()
+        {
+            var vouchers = await _voucherRepository.GetAllAsync();
+            return View(vouchers);
+        }
+
+        public IActionResult CreateVoucher() => View();
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateVoucher(Voucher voucher)
+        {
+            if (ModelState.IsValid)
+            {
+                await _voucherRepository.AddAsync(voucher);
+                return RedirectToAction(nameof(Vouchers));
+            }
+            return View(voucher);
+        }
+
+        public async Task<IActionResult> EditVoucher(int id)
+        {
+            var voucher = await _voucherRepository.GetByIdAsync(id);
+            if (voucher == null) return NotFound();
+            return View(voucher);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditVoucher(int id, Voucher voucher)
+        {
+            if (id != voucher.Id) return NotFound();
+            if (ModelState.IsValid)
+            {
+                await _voucherRepository.UpdateAsync(voucher);
+                return RedirectToAction(nameof(Vouchers));
+            }
+            return View(voucher);
+        }
+
+        public async Task<IActionResult> DeleteVoucher(int id)
+        {
+            var voucher = await _voucherRepository.GetByIdAsync(id);
+            if (voucher == null) return NotFound();
+            return View(voucher);
+        }
+
+        [HttpPost, ActionName("DeleteVoucher")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteVoucherConfirmed(int id)
+        {
+            await _voucherRepository.DeleteAsync(id);
+            return RedirectToAction(nameof(Vouchers));
         }
     }
 }

@@ -1,3 +1,4 @@
+using Chill_Closet.Models;
 using Chill_Closet.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,20 +7,28 @@ namespace Chill_Closet.Controllers
     public class ShopController : Controller
     {
         private readonly IProductRepository _productRepository;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public ShopController(IProductRepository productRepository)
+        public ShopController(IProductRepository productRepository, ICategoryRepository categoryRepository)
         {
             _productRepository = productRepository;
+            _categoryRepository = categoryRepository;
         }
 
-        // GET: /Shop
         public async Task<IActionResult> Index()
         {
             var products = await _productRepository.GetAllAsync();
-            return View(products);
+            var categories = await _categoryRepository.GetAllAsync();
+
+            var shopViewModel = new ShopViewModel
+            {
+                Products = products,
+                Categories = categories
+            };
+
+            return View(shopViewModel);
         }
 
-        // Action để hiển thị chi tiết sản phẩm
         public async Task<IActionResult> Details(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);

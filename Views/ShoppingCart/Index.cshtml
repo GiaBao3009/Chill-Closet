@@ -1,4 +1,6 @@
-﻿@{
+﻿@model ShoppingCartViewModel
+
+@{
     ViewData["Title"] = "Shopping Cart";
 }
 
@@ -33,86 +35,42 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="~/img/shopping-cart/cart-1.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>T-shirt Contrast Pocket</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty-2">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 30.00</td>
-                                <td class="cart__close"><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="~/img/shopping-cart/cart-2.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>Diagonal Textured Cap</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty-2">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 32.50</td>
-                                <td class="cart__close"><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="~/img/shopping-cart/cart-3.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>Basic Flowing Scarf</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty-2">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 47.00</td>
-                                <td class="cart__close"><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="~/img/shopping-cart/cart-4.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>Basic Flowing Scarf</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty-2">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 30.00</td>
-                                <td class="cart__close"><i class="fa fa-close"></i></td>
-                            </tr>
+                            @if (Model.ShoppingCart.Items.Any())
+                            {
+                                @foreach (var item in Model.ShoppingCart.Items)
+                                {
+                                    <tr data-product-id="@item.ProductId" data-price="@item.Price">
+                                        <td class="product__cart__item">
+                                            <div class="product__cart__item__pic">
+                                                <img src="@Url.Content(item.ImageUrl ?? "/img/default-product.png")" alt=""
+                                                    width="90">
+                                            </div>
+                                            <div class="product__cart__item__text">
+                                                <h6>@item.ProductName</h6>
+                                                <h5>@item.Price.ToString("C")</h5>
+                                            </div>
+                                        </td>
+                                        <td class="quantity__item">
+                                            <div class="quantity">
+                                                <div class="pro-qty-2">
+                                                    <input type="text" value="@item.Quantity" class="quantity-input">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__price item-total">@item.Total.ToString("C")</td>
+                                        <td class="cart__close">
+                                            <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId"><i
+                                                    class="fa fa-close"></i></a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4">Your cart is empty.</td>
+                                </tr>
+                            }
                         </tbody>
                     </table>
                 </div>
@@ -122,26 +80,15 @@
                             <a asp-controller="Shop" asp-action="Index">Continue Shopping</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="continue__btn update__btn">
-                            <a href="#"><i class="fa fa-spinner"></i> Update cart</a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="cart__discount">
-                    <h6>Discount codes</h6>
-                    <form action="#">
-                        <input type="text" placeholder="Coupon code">
-                        <button type="submit">Apply</button>
-                    </form>
-                </div>
                 <div class="cart__total">
                     <h6>Cart total</h6>
                     <ul>
-                        <li>Subtotal <span>$ 169.50</span></li>
-                        <li>Total <span>$ 169.50</span></li>
+                        <li>Subtotal <span id="subtotal">@Model.Subtotal.ToString("C")</span></li>
+                        <li>Shipping Fee <span id="shipping-fee">@Model.ShippingFee.ToString("C")</span></li>
+                        <li>Total <span id="grand-total">@Model.GrandTotal.ToString("C")</span></li>
                     </ul>
                     <a asp-controller="Checkout" asp-action="Index" class="primary-btn">Proceed to checkout</a>
                 </div>
@@ -149,3 +96,68 @@
         </div>
     </div>
 </section>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Hàm updateCartTotals của bạn rất tốt, chúng ta sẽ giữ nguyên nó.
+            function updateCartTotals() {
+                let subtotal = 0;
+
+                // Tính lại tổng của từng sản phẩm và tổng phụ
+                $('.shopping__cart__table tbody tr[data-product-id]').each(function () {
+                    const quantity = parseInt($(this).find('.quantity-input').val()) || 0;
+                    const price = parseFloat($(this).data('price')) || 0;
+                    const itemTotal = quantity * price;
+
+                    // Cập nhật lại cột Total của dòng sản phẩm đó
+                    $(this).find('.item-total').text(itemTotal.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+
+                    subtotal += itemTotal;
+                });
+
+                // Tính lại phí ship dựa trên tổng phụ mới
+                const shippingFee = subtotal >= 500000 ? 0 : 30000;
+                const grandTotal = subtotal + shippingFee;
+
+                // Cập nhật lại bảng Cart Total
+                $('#subtotal').text(subtotal.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+                $('#shipping-fee').text(shippingFee.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+                $('#grand-total').text(grandTotal.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+            }
+
+            // Thêm logic cho các nút +/- từ theme gốc
+            var proQty = $('.pro-qty-2');
+            proQty.find('.qtybtn').remove();
+            proQty.prepend('<span class="fa fa-angle-left dec qtybtn"></span>');
+            proQty.append('<span class="fa fa-angle-right inc qtybtn"></span>');
+
+        proQty.off('click', '.qtybtn').on('click', '.qtybtn', function () {
+            var $button = $(this);
+            var oldValue = $button.parent().find('input').val();
+            var newVal;
+            if ($button.hasClass('inc')) {
+                newVal = parseFloat(oldValue) + 1;
+            } else {
+                // Ngăn không cho giảm xuống dưới 1
+                if (oldValue > 1) {
+                    newVal = parseFloat(oldValue) - 1;
+                } else {
+                    newVal = 1;
+                }
+            }
+            $button.parent().find('input').val(newVal);
+            updateCartTotals();
+        });
+
+            // Giữ lại sự kiện 'change' khi người dùng tự gõ số
+            $('.quantity-input').on('change', function () {
+                if (parseInt($(this).val()) < 1) {
+                    $(this).val(1);
+                }
+                updateCartTotals();
+            });
+
+        });
+    </script>
+}

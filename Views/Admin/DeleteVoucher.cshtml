@@ -1,0 +1,49 @@
+﻿@model Voucher
+
+@{
+    ViewData["Title"] = "Xác nhận xóa Voucher";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                @await Html.PartialAsync("_AdminSidebarPartial")
+            </div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title">
+                        <h2>Xác nhận xóa</h2>
+                        <h3 class="text-danger">Bạn có chắc chắn muốn xóa voucher này không?</h3>
+                    </div>
+
+                    <div class="admin-form-container">
+                        <h4>Voucher: @Model.Code</h4>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-3">Loại</dt>
+                            <dd class="col-sm-9">@Html.DisplayFor(model => model.Type)</dd>
+
+                            <dt class="col-sm-3">Giá trị giảm</dt>
+                            <dd class="col-sm-9">@Html.DisplayFor(model => model.DiscountValue)</dd>
+
+                            <dt class="col-sm-3">Số lượng</dt>
+                            <dd class="col-sm-9">@Html.DisplayFor(model => model.Quantity)</dd>
+
+                            <dt class="col-sm-3">Ngày hết hạn</dt>
+                            <dd class="col-sm-9">@Model.ExpiryDate.ToString("dd/MM/yyyy")</dd>
+                        </dl>
+
+                        <form asp-action="DeleteVoucher">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-buttons mt-4">
+                                <input type="submit" value="Xóa" class="btn btn-danger" />
+                                <a asp-action="Vouchers" class="btn btn-outline-secondary ml-2">Hủy</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

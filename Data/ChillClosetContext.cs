@@ -20,5 +20,7 @@ namespace Chill_Closet.Data
         public DbSet<Category> Categories { get; set; }
         // Thêm các DbSet khác ở đây (Reviews, Categories,...)
         public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Voucher> Vouchers { get; set; }
     }
 }

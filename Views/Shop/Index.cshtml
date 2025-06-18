@@ -1,5 +1,6 @@
-﻿@model IEnumerable<Chill_Closet.Models.Product>
+﻿@model Chill_Closet.Models.ShopViewModel
 @using System.Linq
+
 
 @{
     ViewData["Title"] = "Shop";
@@ -95,22 +96,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    @if (Model != null && Model.Any())
+                    @if (Model.Products != null && Model.Products.Any())
                     {
-                        @foreach (var product in Model)
+                        @foreach (var product in Model.Products)
                         {
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="@Url.Content(product.MainImageUrl ?? "/img/default-product.png")">
-                                        <span class="label">New</span>
-                                        <ul class="product__hover">
-                                            <li><a href="#"><img src="/img/product/product-1.jpg" alt=""></a></li>
-                                            <li><a asp-controller="Shop" asp-action="Details" asp-route-id="@product.Id"><img src="/img/icon/search.png" alt=""></a></li>
-                                        </ul>
-                                    </div>
+                                    <a asp-controller="Shop" asp-action="Details" asp-route-id="@product.Id">
+                                        <div class="product__item__pic set-bg"
+                                            data-setbg="@Url.Content(product.MainImageUrl ?? "/img/default-product.png")">
+                                        </div>
+                                    </a>
+
                                     <div class="product__item__text">
                                         <h6>@product.Name</h6>
-                                        <a href="#" class="add-cart">+ Add To Cart</a>
+                                        <a href="#" class="add-cart" data-product-id="@product.Id">+ Add To Cart</a>
                                         <div class="rating">
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
@@ -145,3 +145,40 @@
     </div>
     </div>
 </section>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Handle Add to Cart click
+            $('.add-cart').click(function (e) {
+                e.preventDefault();
+                var productId = $(this).data('product-id');
+                var quantity = 1;
+
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "ShoppingCart")',
+                    type: 'POST',
+                    data: {
+                        productId: productId,
+                        quantity: quantity
+                    },
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Update cart count in header
+                            $('.header__nav__option a[href*="ShoppingCart"] span').text(response.cartCount);
+                            alert(response.message);
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function () {
+                        alert('An error occurred while adding to cart.');
+                    }
+                });
+            });
+        });
+    </script>
+}

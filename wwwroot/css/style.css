@@ -4010,3 +4010,32 @@ ol {
 .login__form .login__links a:last-child {
 	margin-bottom: 0;
 }
+
+
+.product__item .product__item__pic {
+	opacity: 1 !important;
+}
+
+.product__item .product__item__pic .product__hover {
+	right: 20px;
+	opacity: 1;
+}
+
+.product__item__text .add-cart {
+	opacity: 1;
+	visibility: visible;
+	position: static; /* Bỏ định vị tuyệt đối để nó không lơ lửng */
+	display: block; /* Hiển thị như một khối riêng */
+	margin-bottom: 10px; /* Thêm khoảng cách với phần rating/giá */
+	transition: none; /* Bỏ hiệu ứng chuyển động */
+}
+
+/* Bỏ hiệu ứng làm mờ tên sản phẩm khi hover */
+.product__item:hover .product__item__text h6 {
+	opacity: 1;
+}
+
+/* Bỏ hiệu ứng di chuyển của nút "Add to Cart" khi hover */
+.product__item:hover .product__item__text a {
+	top: 0;
+}
