@@ -31,7 +31,7 @@ namespace Chill_Closet.Controllers
                 GrandTotal = cart.GetGrandTotal(),
                 AppliedVoucherCode = appliedVoucherCode // Truyền mã voucher đã áp dụng sang View
             };
-            
+
             return View(viewModel);
         }
 
