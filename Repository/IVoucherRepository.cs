@@ -9,5 +9,6 @@ namespace Chill_Closet.Repository
         Task AddAsync(Voucher voucher);
         Task UpdateAsync(Voucher voucher);
         Task DeleteAsync(int id);
+        Task<IEnumerable<Voucher>> GetAvailableForUserAsync(string userId);
     }
 }

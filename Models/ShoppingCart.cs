@@ -22,7 +22,6 @@
             Items.RemoveAll(i => i.ProductId == productId);
         }
 
-        // --- CÁC PHƯƠNG THỨC TÍNH TOÁN MỚI ---
         public decimal GetSubtotal()
         {
             return Items.Sum(i => i.Total);
@@ -30,15 +29,11 @@
 
         public decimal GetShippingFee()
         {
-            // Áp dụng quy tắc: trên 500k thì freeship
             return GetSubtotal() >= 500000 ? 0 : 30000;
         }
 
-        public decimal GetGrandTotal()
-        {
-            return GetSubtotal() + GetShippingFee();
-        }
-        public decimal GetGrandTotal(Voucher voucher)
+        // Phương thức tính tổng cuối cùng, có thể nhận voucher hoặc không
+        public decimal GetGrandTotal(Voucher? voucher = null)
         {
             decimal subtotal = GetSubtotal();
             decimal shipping = GetShippingFee();

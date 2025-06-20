@@ -1,0 +1,86 @@
+﻿@model ReturnRequest
+@using Chill_Closet.Enums
+@{
+    ViewData["Title"] = "Chi tiết Yêu cầu #" + Model.Id;
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">@await Html.PartialAsync("_AdminSidebarPartial")</div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                    }
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2 class="admin-content-title">Chi tiết Yêu cầu Trả hàng #@Model.Id</h2>
+                        <span class="badge badge-warning" style="font-size: 16px;">@Model.Status</span>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">Thông tin Yêu cầu</div>
+                        <div class="card-body">
+                            <p><strong>Đơn hàng:</strong> #@Model.OrderId</p>
+                            <p><strong>Lý do:</strong> @Model.Reason</p>
+                            <p><strong>SĐT liên hệ:</strong> @Model.ContactPhone</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header">Thông tin Hoàn tiền</div>
+                        <div class="card-body">
+                            <p><strong>Phương thức:</strong> @Model.RefundMethod</p>
+                            @if (Model.RefundMethod == RefundMethod.BankTransfer)
+                            {
+                                <p><strong>Ngân hàng:</strong> @Model.BankName</p>
+                                <p><strong>Số tài khoản:</strong> @Model.BankAccountNumber</p>
+                                <p><strong>Tên chủ tài khoản:</strong> @Model.BankAccountName</p>
+                            }
+                            else
+                            {
+                                <p><strong>SĐT Momo:</strong> @Model.MomoPhoneNumber</p>
+                            }
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">Hình ảnh bằng chứng</div>
+                        <div class="card-body">
+                            <div class="row">
+                                @foreach (var image in Model.Images)
+                                {
+                                    <div class="col-md-4 mb-3">
+                                        <a href="@Url.Content(image.Url)" target="_blank">
+                                            <img src="@Url.Content(image.Url)" class="img-fluid img-thumbnail" style="height: 150px; object-fit: cover;" />
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (Model.Status == ReturnStatus.Pending)
+                    {
+                        <div class="card">
+                            <div class="card-header">Hành động</div>
+                            <div class="card-body">
+                                <form asp-action="ProcessReturnRequest" method="post" class="d-inline">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@Model.Id" />
+                                    <input type="hidden" name="status" value="@ReturnStatus.Approved" />
+                                    <button type="submit" class="btn btn-success">Chấp nhận Hoàn tiền</button>
+                                </form>
+                                <form asp-action="ProcessReturnRequest" method="post" class="d-inline">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@Model.Id" />
+                                    <input type="hidden" name="status" value="@ReturnStatus.Rejected" />
+                                    <button type="submit" class="btn btn-danger">Từ chối</button>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

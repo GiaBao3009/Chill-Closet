@@ -44,7 +44,7 @@
                                 <td>@order.TotalAmount.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</td>
                                 <td>@order.Status</td>
                                 <td class="text-center">
-                                    <a href="#" class="btn btn-sm btn-outline-info">Xem chi tiết</a>
+                                    <a asp-controller="Order" asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-outline-info">Xem chi tiết</a>
                                 </td>
                             </tr>
                         }

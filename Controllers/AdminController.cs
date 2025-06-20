@@ -16,14 +16,22 @@ namespace Chill_Closet.Controllers
         private readonly ICategoryRepository _categoryRepository;
         private readonly IOrderRepository _orderRepository;
         private readonly IVoucherRepository _voucherRepository;
+        private readonly IReturnRequestRepository _returnRequestRepository; // Sửa lại tên biến cho nhất quán
+        private readonly INotificationRepository _notificationRepository;
 
-        // Constructor đúng, inject cả hai repository
-        public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository,IOrderRepository orderRepository, IVoucherRepository voucherRepository)
+        public AdminController(IProductRepository productRepository,
+                               ICategoryRepository categoryRepository,
+                               IOrderRepository orderRepository,
+                               IVoucherRepository voucherRepository,
+                               IReturnRequestRepository returnRequestRepository,
+                               INotificationRepository notificationRepository) // Sửa lại tên tham số
         {
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
             _orderRepository = orderRepository;
             _voucherRepository = voucherRepository;
+            _returnRequestRepository = returnRequestRepository; // Sửa lại tên biến gán
+            _notificationRepository = notificationRepository;
         }
 
         public IActionResult Index()
@@ -310,6 +318,7 @@ namespace Chill_Closet.Controllers
         // POST: Admin/UpdateOrderStatus
         [HttpPost]
         [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> UpdateOrderStatus(int orderId, OrderStatus newStatus)
         {
             var order = await _orderRepository.GetOrderByIdAsync(orderId);
@@ -318,8 +327,8 @@ namespace Chill_Closet.Controllers
                 return NotFound();
             }
 
-            // Áp dụng logic: Nếu trạng thái hiện tại là Pending, có thể chuyển sang Confirmed hoặc Cancelled
-            if (order.Status == OrderStatus.Pending)
+            // Logic cũ: cho phép chuyển từ Pending sang Confirmed hoặc Cancelled
+            if (order.Status == OrderStatus.Pending && (newStatus == OrderStatus.Confirmed || newStatus == OrderStatus.Cancelled))
             {
                 order.Status = newStatus;
                 if (newStatus == OrderStatus.Confirmed)
@@ -327,7 +336,12 @@ namespace Chill_Closet.Controllers
                     order.EstimatedDeliveryDate = DateTime.Now.AddDays(7);
                 }
             }
-            // Thêm các logic chuyển trạng thái khác sau này (ví dụ: từ Confirmed -> Shipping)
+            // LOGIC MỚI: Cho phép chuyển từ Confirmed sang Shipping
+            else if (order.Status == OrderStatus.Confirmed && newStatus == OrderStatus.Shipping)
+            {
+                order.Status = newStatus;
+            }
+            // Sau này có thể thêm các logic khác, ví dụ: từ Shipping -> Completed
 
             await _orderRepository.UpdateOrderAsync(order);
 
@@ -388,5 +402,46 @@ namespace Chill_Closet.Controllers
             await _voucherRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Vouchers));
         }
+        // GET: Admin/ReturnRequests
+        public async Task<IActionResult> ReturnRequests()
+        {
+            var requests = await _returnRequestRepository.GetAllAsync();
+            return View(requests);
+        }
+
+        // GET: Admin/ReturnRequestDetails/5
+        public async Task<IActionResult> ReturnRequestDetails(int id)
+        {
+            var request = await _returnRequestRepository.GetByIdAsync(id);
+            if (request == null)
+            {
+                return NotFound();
+            }
+            return View(request);
+        }
+
+        // POST: Xử lý yêu cầu trả hàng
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ProcessReturnRequest(int id, ReturnStatus status)
+        {
+            var request = await _returnRequestRepository.GetByIdAsync(id);
+            if (request == null) return NotFound();
+
+            request.Status = status;
+            await _returnRequestRepository.UpdateAsync(request);
+
+            var notification = new Notification
+            {
+                ApplicationUserId = request.Order.ApplicationUserId,
+                Message = $"Yêu cầu trả hàng cho đơn hàng #{request.OrderId} đã được cập nhật trạng thái thành '{status}'.",
+                Url = Url.Action("Details", "Order", new { id = request.OrderId })
+            };
+            await _notificationRepository.AddAsync(notification);
+
+            TempData["SuccessMessage"] = "Đã xử lý yêu cầu trả hàng.";
+            return RedirectToAction("ReturnRequestDetails", new { id = id });
+        }
+
     }
 }

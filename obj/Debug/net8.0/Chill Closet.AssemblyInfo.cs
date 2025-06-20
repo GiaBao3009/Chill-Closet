@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chill Closet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dfe29af84d03bbf89588ea22701fa4a7c4dcc20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc6fbb59fffe938b29c34aff6e4fa3e61e5b6330")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chill Closet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chill Closet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

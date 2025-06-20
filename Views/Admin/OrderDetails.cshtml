@@ -96,8 +96,18 @@
                             }
                             else if (Model.Status == OrderStatus.Confirmed)
                             {
-                                <p class="text-muted">Đơn hàng đã được xác nhận, không thể hủy. Chờ xử lý giao hàng.</p>
-                                // Nút "Giao hàng" sẽ được thêm ở bước sau
+                                <form asp-action="UpdateOrderStatus" method="post" class="d-inline">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="orderId" value="@Model.Id" />
+                                    <input type="hidden" name="newStatus" value="@OrderStatus.Shipping" />
+                                    <button type="submit" class="btn btn-primary">Bắt đầu Giao hàng</button>
+                                </form>
+                                <p class="text-muted mt-2">Nhấn để chuyển trạng thái đơn hàng sang "Đang giao".</p>
+                            }
+                            else if (Model.Status == OrderStatus.Shipping)
+                            {
+                                <p class="text-info font-weight-bold">Đơn hàng đang trên đường giao đến khách hàng.</p>
+                                // Nút "Xác nhận đã giao" sẽ được thêm ở đây sau
                             }
                             else
                             {

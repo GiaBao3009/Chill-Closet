@@ -22,5 +22,8 @@ namespace Chill_Closet.Data
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Voucher> Vouchers { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+        public DbSet<ReturnRequest> ReturnRequests { get; set; }
+        public DbSet<ReturnRequestImage> ReturnRequestImages { get; set; }
     }
 }

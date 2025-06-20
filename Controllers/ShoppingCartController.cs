@@ -9,7 +9,7 @@ namespace Chill_Closet.Controllers
 {
     public class ShoppingCartController : Controller
     {
-        private readonly IProductRepository _productRepository;
+       private readonly IProductRepository _productRepository;
         private readonly IVoucherRepository _voucherRepository;
 
         public ShoppingCartController(IProductRepository productRepository, IVoucherRepository voucherRepository)

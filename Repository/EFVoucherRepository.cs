@@ -39,5 +39,12 @@ namespace Chill_Closet.Repository
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<IEnumerable<Voucher>> GetAvailableForUserAsync(string userId)
+        {
+            return await _context.Vouchers
+                .Where(v => (v.ApplicationUserId == userId || v.ApplicationUserId == null) && v.ExpiryDate > DateTime.Now && v.Quantity > 0)
+                .OrderByDescending(v => v.Id)
+                .ToListAsync();
+        }
     }
 }

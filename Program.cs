@@ -30,6 +30,8 @@ builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
 builder.Services.AddScoped<IVoucherRepository, EFVoucherRepository>();
+builder.Services.AddScoped<INotificationRepository, EFNotificationRepository>();
+builder.Services.AddScoped<IReturnRequestRepository, EFReturnRequestRepository>();
 
 builder.Services.AddSession(options =>
 {

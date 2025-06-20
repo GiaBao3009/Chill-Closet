@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Chill Closet">
-    <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@ViewData["Title"] - Chill Closet</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="~/css/elegant-icons.css" type="text/css">
@@ -21,6 +19,127 @@
     <link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="~/css/style.css" type="text/css">
     <link rel="stylesheet" href="~/css/admin-dashboard.css" type="text/css">
+
+    <style>
+        .header__nav__option .search-switch,
+        .header__nav__option .notification-wrapper>a {
+            display: inline-block;
+            vertical-align: middle;
+            height: 24px;
+            width: 24px;
+            padding: 0;
+            margin: 0 7px;
+            text-align: center;
+            line-height: 24.5px;
+            background: none;
+            border: none;
+            position: relative;
+        }
+
+        .header__nav__option .notification-wrapper img 
+        {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+
+        /* === Notification System (Facebook-style dropdown) === */
+
+        /* Vỏ bọc cho chuông và dropdown, cần có position: relative để làm mốc */
+        .notification-wrapper {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+            /* Điều chỉnh khoảng cách nếu cần */
+            vertical-align: middle;
+        }
+
+        /* Icon chuông */
+        #notification-bell,
+        #notification-bell-mobile {
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        /* Số đếm thông báo màu đỏ */
+        #notification-count,
+        #notification-count-mobile {
+            position: absolute;
+            top: -5px;
+            right: -8px;
+            background: #e53637;
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            display: none;
+            /* Mặc định ẩn, JS sẽ cho hiện ra */
+        }
+
+        /* Khung dropdown chứa thông báo - ĐÂY LÀ PHẦN SỬA QUAN TRỌNG NHẤT */
+        #notification-dropdown,
+        #notification-dropdown-mobile {
+            position: absolute;
+            /* "Nhấc" dropdown ra khỏi luồng trang */
+            top: 130%;
+            /* Đặt vị trí ngay bên dưới header icons */
+            right: -20px;
+            /* Căn lề phải so với icon chuông */
+            width: 350px;
+            /* Tăng chiều rộng cho dễ đọc */
+            background: #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            border: 1px solid #eee;
+            border-radius: 5px;
+            /* Thêm bo góc cho đẹp hơn */
+            z-index: 1000;
+            /* Đảm bảo nó luôn nằm trên các nội dung khác */
+            max-height: 400px;
+            overflow-y: auto;
+            display: none;
+            /* Mặc định ẩn, JS sẽ bật/tắt */
+        }
+
+        /* Điều chỉnh vị trí cho menu mobile */
+        .offcanvas__nav__option .notification-wrapper #notification-dropdown {
+            right: auto;
+            left: -100px;
+        }
+
+        /* Định dạng cho mỗi dòng thông báo */
+        .notification-item {
+            display: block;
+            padding: 10px 15px;
+            border-bottom: 1px solid #f2f2f2;
+            color: #666;
+            text-decoration: none;
+            white-space: normal;
+        }
+
+        .notification-item:last-child {
+            border-bottom: none;
+        }
+
+        .notification-item:hover {
+            background: #f7f7f7;
+            color: #111;
+        }
+
+        .notification-item p {
+            margin: 0 0 4px 0;
+            font-size: 14px;
+            color: #3d3d3d;
+        }
+
+        .notification-item small {
+            font-size: 11px;
+            color: #999;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,15 +153,22 @@
         <div class="offcanvas__option">
             <div class="offcanvas__links">
                 <partial name="_LoginPartial" />
-                <a href="#">FAQs</a>
             </div>
-
         </div>
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="~/img/icon/search.png" alt=""></a>
             <a href="#"><img src="~/img/icon/heart.png" alt=""></a>
-            <a href="#"><img src="~/img/icon/cart.png" alt=""> <span>0</span></a>
-            
+            <div class="notification-wrapper">
+                <a href="#" id="notification-bell-mobile">
+                    <img src="/img/icon/bell.png" alt="Notifications">
+                    <span id="notification-count-mobile">0</span>
+                </a>
+                <div id="notification-dropdown-mobile"></div>
+            </div>
+            <a asp-controller="ShoppingCart" asp-action="Index">
+                <img src="~/img/icon/cart.png" alt="">
+                <span>0</span>
+            </a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
@@ -63,7 +189,6 @@
                             <div class="header__top__links">
                                 <partial name="_LoginPartial" />
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -89,9 +214,8 @@
                                     <li><a asp-controller="Checkout" asp-action="Index">Check Out</a></li>
                                     <li><a asp-controller="Blog" asp-action="Details" asp-route-id="1">Blog Details</a>
                                     </li>
-                                    <li>
-                                        <a asp-controller="Order" asp-action="Index">Đơn hàng của tôi</a>
-                                    </li>
+                                    <li><a asp-controller="Order" asp-action="Index">Đơn hàng</a></li>
+                                    <li><a asp-controller="Voucher" asp-action="Index">Voucher</a></li>
                                 </ul>
                             </li>
                             <li><a asp-controller="Blog" asp-action="Index">Blog</a></li>
@@ -101,83 +225,30 @@
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
+                        <div class="notification-wrapper">
+                            <a href="#" id="notification-bell">
+                                <img src="/img/icon/bell.png" alt="Notifications">
+                                <span id="notification-count">0</span>
+                            </a>
+                            <div id="notification-dropdown"></div>
+                        </div>
                         <a href="#" class="search-switch"><img src="~/img/icon/search.png" alt=""></a>
                         <a href="#"><img src="~/img/icon/heart.png" alt=""></a>
-                        <a asp-controller="ShoppingCart" asp-action="Index"><img src="~/img/icon/cart.png" alt="">
-                            <span>0</span></a>
-                       
+                        <a asp-controller="ShoppingCart" asp-action="Index">
+                            <img src="~/img/icon/cart.png" alt="">
+                            <span>0</span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="canvas__open"><i class="fa fa-bars"></i></div>
         </div>
     </header>
-    <main role="main">
+    <main role="main" class="pb-3">
         @RenderBody()
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__logo">
-                            <a href="#"><img src="~/img/footer-logo.png" alt=""></a>
-                        </div>
-                        <p>The customer is at the heart of our unique business model, which includes design.</p>
-                        <a href="#"><img src="~/img/payment.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Shopping</h6>
-                        <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Shopping</h6>
-                        <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
-                            <li><a href="#">Return & Exchanges</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>NewLetter</h6>
-                        <div class="footer__newslatter">
-                            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
-                            <form action="#">
-                                <input type="text" placeholder="Your email">
-                                <button type="submit"><span class="icon_mail_alt"></span></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer__copyright__text">
-                        <p>
-                            Copyright ©
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </footer>
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
@@ -197,6 +268,107 @@
     <script src="~/js/mixitup.min.js"></script>
     <script src="~/js/owl.carousel.min.js"></script>
     <script src="~/js/main.js"></script>
+    <script>
+
+        // === NOTIFICATION SCRIPT ===
+
+        function loadNotificationCount() {
+
+            // Chỉ chạy nếu người dùng đã đăng nhập và có chuông thông báo
+
+            if ($('#notification-bell').length) {
+
+                $.get('/Notification/GetUnreadCount', function (data) {
+
+                    if (data.count > 0) {
+
+                        $('#notification-count').text(data.count).show();
+
+                        $('#notification-count-mobile').text(data.count).show();
+
+                    } else {
+
+                        $('#notification-count').hide();
+
+                        $('#notification-count-mobile').hide();
+
+                    }
+
+                });
+
+            }
+
+        }
+
+
+
+        // Tải số lượng thông báo khi trang được tải
+
+        loadNotificationCount();
+
+
+
+        // Xử lý khi nhấn vào chuông
+
+        function handleBellClick(bellSelector, dropdownSelector) {
+
+            $('body').on('click', bellSelector, function (e) {
+
+                e.preventDefault();
+
+                e.stopPropagation();
+
+                var dropdown = $(dropdownSelector);
+
+                $('.notification-wrapper > div').not(dropdown).hide(); // Ẩn các dropdown khác
+
+                dropdown.toggle();
+
+
+
+                if (dropdown.is(':visible')) {
+
+                    dropdown.html('<div class="notification-item text-center">Loading...</div>');
+
+                    $.get('/Notification/GetNotificationsPartial', function (data) {
+
+                        dropdown.html(data);
+
+                        // Reset số đếm trên UI sau khi đã xem
+
+                        $('#notification-count, #notification-count-mobile').text('0').hide();
+
+                    });
+
+                }
+
+            });
+
+        }
+
+
+
+        handleBellClick('#notification-bell', '#notification-dropdown');
+
+        handleBellClick('#notification-bell-mobile', '#notification-dropdown-mobile');
+
+
+
+        // Ẩn dropdown khi click ra ngoài
+
+        $(document).on('click', function (e) {
+
+            if (!$(e.target).closest('.notification-wrapper').length) {
+
+                $('#notification-dropdown, #notification-dropdown-mobile').hide();
+
+            }
+
+        });
+
+    </script>
+
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

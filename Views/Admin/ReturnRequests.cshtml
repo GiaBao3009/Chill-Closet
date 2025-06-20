@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ReturnRequest>
+@{
+    ViewData["Title"] = "Quản lý Yêu cầu Trả hàng";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">@await Html.PartialAsync("_AdminSidebarPartial")</div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title"><h2>Quản lý Yêu cầu Trả hàng</h2></div>
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr><th>Mã YC</th><th>Mã ĐH</th><th>Ngày YC</th><th>Trạng thái</th><th>Hành động</th></tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>#@item.Id</td>
+                                    <td>#@item.OrderId</td>
+                                    <td>@item.RequestDate.ToString("dd/MM/yyyy")</td>
+                                    <td>@item.Status</td>
+                                    <td class="text-center">
+                                        <a asp-action="ReturnRequestDetails" asp-route-id="@item.Id" class="btn btn-sm btn-info">Xem chi tiết</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

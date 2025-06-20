@@ -110,6 +110,38 @@ namespace Chill_Closet.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Chill_Closet.Models.Notification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.ToTable("Notifications");
+                });
+
             modelBuilder.Entity("Chill_Closet.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -247,6 +279,75 @@ namespace Chill_Closet.Migrations
                     b.ToTable("ProductImages");
                 });
 
+            modelBuilder.Entity("Chill_Closet.Models.ReturnRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BankAccountName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BankAccountNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BankName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContactPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MomoPhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RefundMethod")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("ReturnRequests");
+                });
+
+            modelBuilder.Entity("Chill_Closet.Models.ReturnRequestImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ReturnRequestId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ReturnRequestId");
+
+                    b.ToTable("ReturnRequestImages");
+                });
+
             modelBuilder.Entity("Chill_Closet.Models.Voucher", b =>
                 {
                     b.Property<int>("Id")
@@ -254,6 +355,9 @@ namespace Chill_Closet.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Code")
                         .IsRequired()
@@ -272,6 +376,8 @@ namespace Chill_Closet.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.ToTable("Vouchers");
                 });
@@ -409,6 +515,17 @@ namespace Chill_Closet.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Chill_Closet.Models.Notification", b =>
+                {
+                    b.HasOne("Chill_Closet.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("Notifications")
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+                });
+
             modelBuilder.Entity("Chill_Closet.Models.Order", b =>
                 {
                     b.HasOne("Chill_Closet.Models.ApplicationUser", "ApplicationUser")
@@ -459,6 +576,37 @@ namespace Chill_Closet.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Chill_Closet.Models.ReturnRequest", b =>
+                {
+                    b.HasOne("Chill_Closet.Models.Order", "Order")
+                        .WithMany()
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("Chill_Closet.Models.ReturnRequestImage", b =>
+                {
+                    b.HasOne("Chill_Closet.Models.ReturnRequest", "ReturnRequest")
+                        .WithMany("Images")
+                        .HasForeignKey("ReturnRequestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ReturnRequest");
+                });
+
+            modelBuilder.Entity("Chill_Closet.Models.Voucher", b =>
+                {
+                    b.HasOne("Chill_Closet.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId");
+
+                    b.Navigation("ApplicationUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -512,6 +660,11 @@ namespace Chill_Closet.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Chill_Closet.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Notifications");
+                });
+
             modelBuilder.Entity("Chill_Closet.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -523,6 +676,11 @@ namespace Chill_Closet.Migrations
                 });
 
             modelBuilder.Entity("Chill_Closet.Models.Product", b =>
+                {
+                    b.Navigation("Images");
+                });
+
+            modelBuilder.Entity("Chill_Closet.Models.ReturnRequest", b =>
                 {
                     b.Navigation("Images");
                 });

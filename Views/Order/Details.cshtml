@@ -1,0 +1,91 @@
+﻿@model Order
+@using Chill_Closet.Enums
+
+@{
+    ViewData["Title"] = "Chi tiết Đơn hàng #" + Model.Id;
+}
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Chi tiết Đơn hàng</h4>
+                    <div class="breadcrumb__links">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Order" asp-action="Index">Đơn hàng của tôi</a>
+                        <span>Chi tiết Đơn hàng #@Model.Id</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="checkout spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Đơn hàng #@Model.Id <span class="badge badge-success" style="font-size: 16px;">@Model.Status</span></h4>
+                <p>Ngày đặt: @Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</p>
+                @if (Model.EstimatedDeliveryDate.HasValue)
+                {
+                    <p>Dự kiến giao ngày: @Model.EstimatedDeliveryDate.Value.ToString("dd/MM/yyyy")</p>
+                }
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="shopping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.OrderItems)
+                            {
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="@Url.Content(item.Product.MainImageUrl ?? "/img/default-product.png")" alt="" width="90">
+                                        </div>
+                                        <div class="product__cart__item__text">
+                                            <h6>@item.Product.Name</h6>
+                                        </div>
+                                    </td>
+                                    <td>@item.Quantity</td>
+                                    <td>@item.Price.ToString("C0")</td>
+                                    <td>@((item.Quantity * item.Price).ToString("C0"))</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="cart__total" style="background: #fff; border: 1px solid #ebebeb;">
+                    <h6>Tổng kết</h6>
+                    <ul>
+                        <li>Tổng cộng <span>@Model.TotalAmount.ToString("C0")</span></li>
+                    </ul>
+                    @if (Model.Status == OrderStatus.Shipping)
+                    {
+                        <form asp-action="ConfirmDelivery" asp-route-id="@Model.Id" method="post">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="primary-btn">Đã nhận được hàng</button>
+                        </form>
+                    }
+                    else if (Model.Status == OrderStatus.Completed)
+                    {
+                        <a asp-controller="Order" asp-action="RequestReturn" asp-route-id="@Model.Id" class="primary-btn" style="background-color: #e53637">Yêu cầu trả hàng</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
