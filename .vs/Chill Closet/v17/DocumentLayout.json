@@ -1,0 +1,1869 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baold\\source\\repos\\Chill Closet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shared\\_adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shared\\_adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\returnrequestdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\returnrequestdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\returnrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\returnrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\ireturnrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\ireturnrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\efreturnrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\efreturnrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\order\\requestreturn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\order\\requestreturn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\order\\requestreturncompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\order\\requestreturncompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\returnrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\returnrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\checkout\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\checkout\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620123104_AddRefundDetailsToReturnRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chill Closet\\Migrations\\20250620123104_AddRefundDetailsToReturnRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\returnrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\returnrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\enum\\refundmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\enum\\refundmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620122053_AddReturnRequestSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chill Closet\\Migrations\\20250620122053_AddReturnRequestSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\data\\chillclosetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\data\\chillclosetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\returnrequestimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\returnrequestimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\enum\\returnstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\enum\\returnstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\editvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\editvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\voucher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\voucher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\vouchercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\vouchercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\efvoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\efvoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\ivoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\ivoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620114244_AddUserToVoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chill Closet\\Migrations\\20250620114244_AddUserToVoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620092510_AddNotificationSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chill Closet\\Migrations\\20250620092510_AddNotificationSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shared\\_notificationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shared\\_notificationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\efnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\efnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\enum\\vouchertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\enum\\vouchertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620054613_AddNotificationSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chill Closet\\Migrations\\20250620054613_AddNotificationSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250618133141_addorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250618133141_addorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250618154047_addvoucherissuedflagtoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250618154047_addvoucherissuedflagtoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\chillclosetcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\chillclosetcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250618135938_addestimateddeliverydatetoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250618135938_addestimateddeliverydatetoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250618112603_addshippingdetailstoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250618112603_addshippingdetailstoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250618111316_addorderandorderitemtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250618111316_addorderandorderitemtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250609184502_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250609184502_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\deletevoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\deletevoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\deletecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\deletecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\createvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\createvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\vouchers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\vouchers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\shopviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\shopviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\admin\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\admin\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\wwwroot\\css\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\wwwroot\\css\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609183516_AddMissingProductColumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chill Closet\\Migrations\\20250609183516_AddMissingProductColumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\wwwroot\\css\\custom-auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\wwwroot\\css\\custom-auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\wwwroot\\fonts\\eleganticons.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\wwwroot\\fonts\\eleganticons.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250609225046_addproductimagesupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250609225046_addproductimagesupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|c:\\users\\baold\\source\\repos\\chill closet\\chill closet\\migrations\\20250618142604_addvouchertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6E47DA-20F6-4A16-97F3-50CACCD19AAA}|Chill Closet\\Chill Closet.csproj|solutionrelative:chill closet\\migrations\\20250618142604_addvouchertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 58,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReturnRequestDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\ReturnRequestDetails.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\ReturnRequestDetails.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\ReturnRequestDetails.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\ReturnRequestDetails.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T13:40:19.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReturnRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\ReturnRequests.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\ReturnRequests.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\ReturnRequests.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\ReturnRequests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T13:40:05.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReturnRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ReturnRequestViewModel.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ReturnRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ReturnRequestViewModel.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ReturnRequestViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:54:13.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestReturnCompleted.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\RequestReturnCompleted.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Order\\RequestReturnCompleted.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\RequestReturnCompleted.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Order\\RequestReturnCompleted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T12:44:12.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250620123104_AddRefundDetailsToReturnRequest.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620123104_AddRefundDetailsToReturnRequest.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250620123104_AddRefundDetailsToReturnRequest.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620123104_AddRefundDetailsToReturnRequest.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250620123104_AddRefundDetailsToReturnRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:31:04.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RefundMethod.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\RefundMethod.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Enum\\RefundMethod.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\RefundMethod.cs",
+              "RelativeToolTip": "Chill Closet\\Enum\\RefundMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:29:59.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFReturnRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFReturnRequestRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\EFReturnRequestRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFReturnRequestRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\EFReturnRequestRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:21:41.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReturnRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IReturnRequestRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\IReturnRequestRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IReturnRequestRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\IReturnRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:21:27.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250620122053_AddReturnRequestSystem.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620122053_AddReturnRequestSystem.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250620122053_AddReturnRequestSystem.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620122053_AddReturnRequestSystem.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250620122053_AddReturnRequestSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:20:54.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReturnRequestImage.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ReturnRequestImage.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ReturnRequestImage.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ReturnRequestImage.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ReturnRequestImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:20:24.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReturnRequest.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ReturnRequest.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ReturnRequest.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ReturnRequest.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ReturnRequest.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:20:14.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReturnStatus.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\ReturnStatus.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Enum\\ReturnStatus.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\ReturnStatus.cs",
+              "RelativeToolTip": "Chill Closet\\Enum\\ReturnStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:19:57.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Voucher\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Voucher\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Voucher\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Voucher\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwDcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T11:46:27.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VoucherController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\VoucherController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\VoucherController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\VoucherController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\VoucherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:45:52.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250620114244_AddUserToVoucher.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620114244_AddUserToVoucher.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250620114244_AddUserToVoucher.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620114244_AddUserToVoucher.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250620114244_AddUserToVoucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:42:44.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250620092510_AddNotificationSystem.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620092510_AddNotificationSystem.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250620092510_AddNotificationSystem.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620092510_AddNotificationSystem.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250620092510_AddNotificationSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:25:11.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_NotificationList.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_NotificationList.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shared\\_NotificationList.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_NotificationList.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shared\\_NotificationList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T07:19:47.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:19:32.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestReturn.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\RequestReturn.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Order\\RequestReturn.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\RequestReturn.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Order\\RequestReturn.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAewCEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T06:15:58.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T05:55:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EFNotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFNotificationRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\EFNotificationRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFNotificationRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\EFNotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:49:07.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "INotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\INotificationRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\INotificationRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\INotificationRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\INotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:48:51.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250620054613_AddNotificationSystem.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620054613_AddNotificationSystem.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250620054613_AddNotificationSystem.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250620054613_AddNotificationSystem.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250620054613_AddNotificationSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:46:14.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Notification.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:44:54.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T06:23:46.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ChillClosetContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\ChillClosetContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\ChillClosetContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\ChillClosetContextModelSnapshot.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\ChillClosetContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:47:29.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250618154047_AddVoucherIssuedFlagToOrder.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618154047_AddVoucherIssuedFlagToOrder.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250618154047_AddVoucherIssuedFlagToOrder.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618154047_AddVoucherIssuedFlagToOrder.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250618154047_AddVoucherIssuedFlagToOrder.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:40:47.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "DeleteVoucher.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\DeleteVoucher.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\DeleteVoucher.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\DeleteVoucher.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\DeleteVoucher.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:34:57.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditVoucher.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\EditVoucher.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\EditVoucher.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\EditVoucher.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\EditVoucher.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:34:42.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CreateVoucher.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\CreateVoucher.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\CreateVoucher.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\CreateVoucher.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\CreateVoucher.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwCkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:31:13.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Vouchers.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Vouchers.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Vouchers.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Vouchers.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Vouchers.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:31:00.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EFVoucherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFVoucherRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\EFVoucherRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFVoucherRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\EFVoucherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:26:59.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IVoucherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IVoucherRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\IVoucherRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IVoucherRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\IVoucherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:26:44.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20250618142604_AddVoucherTable.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618142604_AddVoucherTable.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250618142604_AddVoucherTable.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618142604_AddVoucherTable.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250618142604_AddVoucherTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:26:05.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Voucher.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\Voucher.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Voucher.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\Voucher.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:25:21.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "VoucherType.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\VoucherType.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Enum\\VoucherType.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\VoucherType.cs",
+              "RelativeToolTip": "Chill Closet\\Enum\\VoucherType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:24:37.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:13:12.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAuwMEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:05:23.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\OrderDetails.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T14:04:01.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250618135938_AddEstimatedDeliveryDateToOrder.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618135938_AddEstimatedDeliveryDateToOrder.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250618135938_AddEstimatedDeliveryDateToOrder.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618135938_AddEstimatedDeliveryDateToOrder.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250618135938_AddEstimatedDeliveryDateToOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:59:38.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Orders.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T13:49:53.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250618133141_AddOrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618133141_AddOrderStatus.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250618133141_AddOrderStatus.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618133141_AddOrderStatus.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250618133141_AddOrderStatus.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:31:42.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Enum\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "Chill Closet\\Enum\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:20:28.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:03:42.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderCompleted.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Checkout\\OrderCompleted.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Checkout\\OrderCompleted.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Checkout\\OrderCompleted.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Checkout\\OrderCompleted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:38:24.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250618112603_AddShippingDetailsToOrder.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618112603_AddShippingDetailsToOrder.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250618112603_AddShippingDetailsToOrder.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618112603_AddShippingDetailsToOrder.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250618112603_AddShippingDetailsToOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:26:03.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250618111316_AddOrderAndOrderItemTables.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618111316_AddOrderAndOrderItemTables.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250618111316_AddOrderAndOrderItemTables.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250618111316_AddOrderAndOrderItemTables.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250618111316_AddOrderAndOrderItemTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:13:16.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EFOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFOrderRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\EFOrderRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFOrderRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\EFOrderRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:12:06.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IOrderRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:11:54.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:11:12.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "Chill Closet\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "Chill Closet\\wwwroot\\js\\main.js",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAwAYBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T08:59:50.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Infrastructure\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Infrastructure\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Infrastructure\\SessionExtensions.cs",
+              "RelativeToolTip": "Chill Closet\\Infrastructure\\SessionExtensions.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:40:52.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:36:41.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\CartItem.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:36:19.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswFUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:32:15.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ShoppingCartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ShoppingCartViewModel.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ShoppingCartViewModel.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ShoppingCartViewModel.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ShoppingCartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:31:48.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_AdminSidebarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_AdminSidebarPartial.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shared\\_AdminSidebarPartial.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_AdminSidebarPartial.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shared\\_AdminSidebarPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T04:00:12.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DeleteCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\DeleteCategory.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\DeleteCategory.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\DeleteCategory.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\DeleteCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T03:54:32.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "EditCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\EditCategory.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\EditCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T03:54:22.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CreateCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\CreateCategory.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\CreateCategory.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\CreateCategory.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\CreateCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T03:54:09.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Categories.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Categories.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Categories.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T03:53:42.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ShopViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ShopViewModel.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ShopViewModel.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ShopViewModel.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ShopViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T03:05:50.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T02:55:46.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:50:23.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Details.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwCUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:19:00.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:04:30.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "20250609225046_AddProductImageSupport.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609225046_AddProductImageSupport.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250609225046_AddProductImageSupport.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609225046_AddProductImageSupport.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250609225046_AddProductImageSupport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:50:47.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ProductImage.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:39:45.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T19:29:21.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250609184502_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609184502_Initial.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250609184502_Initial.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609184502_Initial.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250609184502_Initial.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:45:02.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20250609183516_AddMissingProductColumns.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609183516_AddMissingProductColumns.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Migrations\\20250609183516_AddMissingProductColumns.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Migrations\\20250609183516_AddMissingProductColumns.cs",
+              "RelativeToolTip": "Chill Closet\\Migrations\\20250609183516_AddMissingProductColumns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:35:17.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Products.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Products.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Products.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Products.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T18:23:09.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Category.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:57:20.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:56:43.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:56:30.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\EFCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFCategoryRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\EFCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:55:51.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Repository\\EFProductRepository.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Repository\\EFProductRepository.cs",
+              "RelativeToolTip": "Chill Closet\\Repository\\EFProductRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:55:32.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "admin-dashboard.css",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\css\\admin-dashboard.css",
+              "RelativeDocumentMoniker": "Chill Closet\\wwwroot\\css\\admin-dashboard.css",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\css\\admin-dashboard.css",
+              "RelativeToolTip": "Chill Closet\\wwwroot\\css\\admin-dashboard.css",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAswJIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-08T23:58:48.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T23:54:59.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T23:53:56.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Order.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\Order.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T22:56:19.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\Product.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T22:56:03.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T22:42:23.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T22:35:20.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T22:34:47.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Services\\EmailSender.cs",
+              "RelativeToolTip": "Chill Closet\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T22:28:42.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "custom-auth.css",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\css\\custom-auth.css",
+              "RelativeDocumentMoniker": "Chill Closet\\wwwroot\\css\\custom-auth.css",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\css\\custom-auth.css",
+              "RelativeToolTip": "Chill Closet\\wwwroot\\css\\custom-auth.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-08T22:22:11.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T22:21:33.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T22:13:37.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:51:50.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:51:42.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:51:40.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Chill Closet\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:51:39.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Program.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Program.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Program.cs",
+              "RelativeToolTip": "Chill Closet\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:43:44.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChillClosetContext.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Data\\ChillClosetContext.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Data\\ChillClosetContext.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Data\\ChillClosetContext.cs",
+              "RelativeToolTip": "Chill Closet\\Data\\ChillClosetContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:43:11.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Chill Closet\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:41:40.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\appsettings.json",
+              "RelativeDocumentMoniker": "Chill Closet\\appsettings.json",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\appsettings.json",
+              "RelativeToolTip": "Chill Closet\\appsettings.json",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T20:41:05.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:59:12.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAowMMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:51:50.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:51:18.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Blog\\Details.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Blog\\Details.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Blog\\Details.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Blog\\Details.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowIgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:48:38.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowDAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:32:01.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:31:23.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwD8AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:20:59.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:20:19.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAIAwwFUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:16:07.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwFsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:53:48.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Chill Closet\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Chill Closet\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:51:14.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAuwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:49:37.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Chill Closet\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Chill Closet\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAMAPAAAAAAAAAAAAAMkPAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-08T16:34:04.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAmwNkAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:13:58.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Chill Closet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Chill Closet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAACUBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:13:45.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "ElegantIcons.svg",
+              "DocumentMoniker": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\fonts\\ElegantIcons.svg",
+              "RelativeDocumentMoniker": "Chill Closet\\wwwroot\\fonts\\ElegantIcons.svg",
+              "ToolTip": "C:\\Users\\baold\\source\\repos\\Chill Closet\\Chill Closet\\wwwroot\\fonts\\ElegantIcons.svg",
+              "RelativeToolTip": "Chill Closet\\wwwroot\\fonts\\ElegantIcons.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-06-08T16:13:31.882Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
