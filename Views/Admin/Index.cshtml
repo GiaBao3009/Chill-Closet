@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<section class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                @await Html.PartialAsync("_AdminSidebarPartial")
+            </div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title">
+                        <h2>Dashboard</h2>
+                        <p>Tổng quan về cửa hàng của bạn</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="admin-stat-card">
+                                <h3>150</h3>
+                                <p>Sản phẩm</p>
+                                <span class="icon_tags_alt"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="admin-stat-card">
+                                <h3>30</h3>
+                                <p>Đơn hàng mới</p>
+                                <span class="icon_cart_alt"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="admin-stat-card">
+                                <h3>250</h3>
+                                <p>Người dùng</p>
+                                <span class="icon_profile"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,139 @@
+﻿@model CheckoutViewModel
+@{
+    ViewData["Title"] = "Checkout";
+    ShoppingCart cart = ViewBag.Cart as ShoppingCart ?? new ShoppingCart();
+}
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Check Out</h4>
+                    <div class="breadcrumb__links">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Shop" asp-action="Index">Shop</a>
+                        <span>Check Out</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="checkout spad">
+    <div class="container">
+        <div class="checkout__form">
+            <form asp-action="Index" method="post">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <h6 class="checkout__title">Thông tin giao hàng</h6>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="checkout__input">
+                            <p>Họ và Tên<span>*</span></p>
+                            <input asp-for="FullName" placeholder="Nhập họ và tên người nhận">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="checkout__input">
+                            <p>Địa chỉ<span>*</span></p>
+                            <input asp-for="ShippingAddress" placeholder="Nhập địa chỉ nhận hàng">
+                            <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Số điện thoại<span>*</span></p>
+                                    <input asp-for="ShippingPhone" placeholder="Nhập số điện thoại">
+                                    <span asp-validation-for="ShippingPhone" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Email<span>*</span></p>
+                                    <input asp-for="Email" placeholder="Nhập email">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="checkout__input">
+                            <p>Ghi chú đơn hàng</p>
+                            <input asp-for="Notes" placeholder="Ghi chú cho shipper (không bắt buộc).">
+                        </div>
+                        <div class="d-flex mb-3">
+                            <input type="text" id="voucher-code-input" class="form-control mr-2" placeholder="Mã giảm giá">
+                            <button type="button" id="apply-voucher-btn" class="site-btn" style="white-space: nowrap; padding: 0px 30px; border-radius: 5px ">Áp dụng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="checkout__order">
+                            <h4 class="order__title">Đơn hàng của bạn</h4>
+                            <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
+                            <ul class="checkout__total__products">
+                                @foreach (var item in cart.Items)
+                                {
+                                    <li>@item.Quantity x @item.ProductName <span>@item.Total.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</span></li>
+                                }
+                            </ul>
+                            <ul class="checkout__total__all">
+                                <li>Tổng phụ <span id="subtotal">@cart.GetSubtotal().ToString("C", new System.Globalization.CultureInfo("vi-VN"))</span></li>
+                                <li>Phí Ship <span id="shipping-fee">@cart.GetShippingFee().ToString("C", new System.Globalization.CultureInfo("vi-VN"))</span></li>
+                                <li id="discount-row" style="display: none;">Giảm giá <span></span></li>
+                                <li class="font-weight-bold">Tổng cộng <span id="grand-total">@cart.GetGrandTotal().ToString("C", new System.Globalization.CultureInfo("vi-VN"))</span></li>
+                            </ul>
+                            <button type="submit" class="site-btn">ĐẶT HÀNG</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function () {
+            $('#apply-voucher-btn').on('click', function () {
+                var code = $('#voucher-code-input').val();
+                if (!code) {
+                    $('#voucher-message').html('<span class="text-danger">Vui lòng nhập mã voucher.</span>');
+                    return;
+                }
+
+                $.ajax({
+                    url: '@Url.Action("ApplyVoucher", "ShoppingCart")',
+                    type: 'POST',
+                    data: { voucherCode: code },
+                    headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+                    success: function (response) {
+                        if (response.success) {
+                            $('#voucher-message').html('<span class="text-success">' + response.message + '</span>');
+
+                            // Cập nhật lại tổng tiền trên giao diện
+                            $('#grand-total').text(response.newTotal.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+
+                            // Hiển thị dòng giảm giá
+                            var discountFormatted = response.discountAmount.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+                            $('#discount-row span').text("- " + discountFormatted);
+                            $('#discount-row').show();
+
+                        } else {
+                            $('#voucher-message').html('<span class="text-danger">' + response.message + '</span>');
+                            $('#discount-row').hide(); // Ẩn dòng giảm giá nếu voucher sai
+                        }
+                    },
+                    error: function() {
+                         $('#voucher-message').html('<span class="text-danger">Có lỗi xảy ra, vui lòng thử lại.</span>');
+                    }
+                });
+            });
+        });
+    </script>
+}

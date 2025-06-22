@@ -1,0 +1,154 @@
+﻿/*---------------------
+  Admin Dashboard
+-----------------------*/
+
+.admin-sidebar {
+    background: #f3f2ee;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+    .admin-sidebar h4 {
+        color: #111;
+        font-weight: 700;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+.admin-sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .admin-sidebar-nav li a {
+        display: block;
+        color: #444444;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 12px 15px;
+        border-radius: 5px;
+        transition: all 0.3s;
+    }
+
+        .admin-sidebar-nav li a i {
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .admin-sidebar-nav li a:hover {
+            background: #fff;
+            color: #111;
+        }
+
+    .admin-sidebar-nav li.active a {
+        background: #111111;
+        color: #ffffff;
+    }
+
+    .admin-content-title {
+        display: flex;                  /* Bật Flexbox */
+        justify-content: space-between; /* Đẩy 2 item về 2 phía */
+        align-items: center;            /* Căn giữa theo chiều dọc */
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    /* Thêm quy tắc này để xóa margin-bottom mặc định của thẻ h2 */
+    .admin-content-title h2 {
+        margin-bottom: 0;
+    }
+
+    .admin-content-title p {
+        color: #666;
+        margin-bottom: 0;
+    }
+
+.admin-stat-card {
+    background: #f3f2ee;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+    .admin-stat-card h3 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #111;
+    }
+
+    .admin-stat-card p {
+        font-size: 16px;
+        color: #444;
+        margin-bottom: 0;
+    }
+
+    .admin-stat-card span {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 70px;
+        color: #e5e5e5;
+    }
+/* ===================================
+   ADMIN FORM STYLES
+======================================*/
+
+.admin-form-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+    .admin-form-container .form-group {
+        margin-bottom: 25px;
+    }
+
+    .admin-form-container .form-label {
+        color: #111111;
+        margin-bottom: 12px;
+        font-weight: 700;
+        display: block;
+    }
+
+    .admin-form-container .form-control {
+        height: 50px;
+        width: 100%;
+        border: 1px solid #e1e1e1;
+        font-size: 15px;
+        padding-left: 20px;
+        color: #666;
+        border-radius: 5px;
+    }
+
+    /* Áp dụng cho cả select dropdown */
+    .admin-form-container select.form-control {
+        padding-top: 0;
+        padding-bottom: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23aaa' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
+    }
+
+    .admin-form-container textarea.form-control {
+        height: 150px;
+        padding-top: 15px;
+    }
+
+    .admin-form-container .form-control:focus {
+        border-color: #111;
+        box-shadow: none;
+    }
+
+    .admin-form-container .form-buttons .site-btn {
+        letter-spacing: 2px;
+        border-radius: 5px;
+    }

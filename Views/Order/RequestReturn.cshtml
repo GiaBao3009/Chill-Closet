@@ -1,0 +1,119 @@
+﻿@model ReturnRequestViewModel
+@using Chill_Closet.Enums
+@{
+    ViewData["Title"] = "Yêu cầu Trả hàng";
+}
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Yêu cầu Trả hàng</h4>
+                    <div class="breadcrumb__links">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Order" asp-action="Index">Đơn hàng của tôi</a>
+                        <span>Yêu cầu Trả hàng</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="checkout spad">
+    <div class="container">
+        <div class="checkout__form">
+            <h4>Yêu cầu Trả hàng / Hoàn tiền cho Đơn hàng #@Model.OrderId</h4>
+            <form asp-action="RequestReturn" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="OrderId" />
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="checkout__input">
+                            <p>Lý do trả hàng<span>*</span></p>
+                            <textarea asp-for="Reason" class="form-control" placeholder="Vui lòng mô tả chi tiết vấn đề bạn gặp phải với sản phẩm (ví dụ: sản phẩm bị rách, sai mẫu...)" rows="5"></textarea>
+                            <span asp-validation-for="Reason" class="text-danger"></span>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Số điện thoại liên hệ<span>*</span></p>
+                            <input asp-for="ContactPhone" placeholder="Số điện thoại để chúng tôi liên lạc khi cần">
+                            <span asp-validation-for="ContactPhone" class="text-danger"></span>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Hình ảnh bằng chứng<span>*</span></p>
+                            <input asp-for="ImageFiles" type="file" class="form-control-file" multiple required />
+                        </div>
+
+                        <hr />
+                        <h6 class="mt-4">Thông tin nhận hoàn tiền</h6>
+                        <div class="checkout__input__checkbox">
+                            <label for="bank-transfer">
+                                Chuyển khoản ngân hàng
+                                @Html.RadioButtonFor(m => m.RefundMethod, RefundMethod.BankTransfer, new { id = "bank-transfer", @checked = "checked" })
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkout__input__checkbox">
+                            <label for="momo">
+                                Ví điện tử Momo
+                                @Html.RadioButtonFor(m => m.RefundMethod, RefundMethod.Momo, new { id = "momo" })
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div id="bank-details">
+                            <div class="checkout__input">
+                                <p>Tên ngân hàng<span>*</span></p>
+                                <input asp-for="BankName">
+                                <span asp-validation-for="BankName" class="text-danger"></span>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Số tài khoản<span>*</span></p>
+                                <input asp-for="BankAccountNumber">
+                                <span asp-validation-for="BankAccountNumber" class="text-danger"></span>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Tên chủ tài khoản<span>*</span></p>
+                                <input asp-for="BankAccountName" placeholder="Tên trên thẻ, viết không dấu">
+                                <span asp-validation-for="BankAccountName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div id="momo-details" style="display:none;">
+                            <div class="checkout__input">
+                                <p>Số điện thoại Momo<span>*</span></p>
+                                <input asp-for="MomoPhoneNumber">
+                                <span asp-validation-for="MomoPhoneNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="site-btn mt-3">GỬI YÊU CẦU</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function() {
+            function toggleRefundFields() {
+                if ($('#bank-transfer').is(':checked')) {
+                    $('#bank-details').show();
+                    $('#momo-details').hide();
+                    $('#bank-details input').prop('required', true);
+                    $('#momo-details input').prop('required', false);
+                } else if ($('#momo').is(':checked')) {
+                    $('#bank-details').hide();
+                    $('#momo-details').show();
+                    $('#bank-details input').prop('required', false);
+                    $('#momo-details input').prop('required', true);
+                }
+            }
+            toggleRefundFields();
+            $('input[name="RefundMethod"]').on('change', toggleRefundFields);
+        });
+    </script>
+}

@@ -1,0 +1,93 @@
+﻿@model Chill_Closet.Models.Product
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<section class="shop-details">
+    <div class="product__details__pic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="product__details__breadcrumb">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Shop" asp-action="Index">Shop</a>
+                        <span>@Model.Name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-0" role="tab">
+                                <div class="product__thumb__pic set-bg" data-setbg="@Url.Content(Model.MainImageUrl)">
+                                </div>
+                            </a>
+                        </li>
+                        @if (Model.Images != null)
+                        {
+                            @foreach (var (image, index) in Model.Images.Select((value, i) => (value, i)))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#tabs-@(index + 1)" role="tab">
+                                        <div class="product__thumb__pic set-bg" data-setbg="@Url.Content(image.Url)">
+                                        </div>
+                                    </a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-9">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-0" role="tabpanel">
+                            <div class="product__details__pic__item">
+                                <img src="@Url.Content(Model.MainImageUrl)" alt="@Model.Name">
+                            </div>
+                        </div>
+                        @if (Model.Images != null)
+                        {
+                            @foreach (var (image, index) in Model.Images.Select((value, i) => (value, i)))
+                            {
+                                <div class="tab-pane" id="tabs-@(index + 1)" role="tabpanel">
+                                    <div class="product__details__pic__item">
+                                        <img src="@Url.Content(image.Url)" alt="@Model.Name">
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product__details__content">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="product__details__text">
+                        <h4>@Model.Name</h4>
+                        <h3>@Model.Price.ToString("C")</h3>
+                        <p>@Model.Description</p>
+
+                        <div class="product__details__cart__option">
+                            <div class="quantity">
+                                <div class="pro-qty">
+                                    <input type="text" value="1">
+                                </div>
+                            </div>
+                            <a href="#" class="primary-btn">add to cart</a>
+                        </div>
+
+                        <div class="product__details__last__option">
+                            <ul>
+                                <li><span>Category:</span> @Model.Category.Name</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Chill_Closet.Models.Product>
+
+@{
+    ViewData["Title"] = "Product Management";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                @await Html.PartialAsync("_AdminSidebarPartial")
+            </div>
+            <div class="col-lg-9">
+                <div class="admin-content">
+                    <div class="admin-content-title">
+                        <h2>Quản lý Sản phẩm</h2>
+                        <a asp-action="Create" class="btn btn-dark">Thêm Sản phẩm mới</a>
+                    </div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Tên Sản phẩm</th>
+                                <th>Danh mục</th>
+                                <th>Giá</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="@Url.Content(item.MainImageUrl)" alt="@item.Name" style="width: 80px; height: 80px; object-fit: cover;">
+                                    </td>
+                                    <td>@item.Name</td>
+                                    <td>@item.Category.Name</td>
+                                    <td>@item.Price.ToString("C")</td>
+                                    <td class="text-center">
+                                        <div class="btn-group" role="group">
+                                            <a asp-controller="Admin" asp-action="Details" asp-route-id="@item.Id" target="_blank" class="btn btn-sm btn-outline-info">Chi tiết</a>
+                                            <a asp-controller="Admin" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-success">Sửa</a>
+                                            <a asp-controller="Admin" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Xóa</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

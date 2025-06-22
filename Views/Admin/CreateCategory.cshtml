@@ -1,0 +1,29 @@
+﻿@model Chill_Closet.Models.Category
+
+@{
+    ViewData["Title"] = "Tạo Danh mục mới";
+}
+
+<div class="admin-dashboard spad">
+    <div class="container">
+        <div class="admin-content">
+            <div class="admin-content-title">
+                <h2>Tạo Danh mục mới</h2>
+            </div>
+            <div class="admin-form-container">
+                <form asp-action="CreateCategory">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-buttons mt-4">
+                        <input type="submit" value="Tạo mới" class="site-btn" />
+                        <a asp-action="Categories" class="btn btn-outline-secondary ml-2">Quay lại</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
